@@ -2,16 +2,17 @@
 
 <h1>Compose</h1>
 <form action="/compose" method="post">
-  <label for="eTitle" class="form-label">Title</label>
-  <input type="text" class="form-control" id="eTitle" name="entryTitle" />
-  <label for="eBody" class="form-label">Post</label>
-  <textarea
-    class="form-control"
-    id="eBody"
-    name="entryBody"
-    rows="5"
-  ></textarea>
-  <br />
+  <div class="form-group">
+    <label for="eTitle" class="form-label">Title</label>
+    <input type="text" class="form-control" id="eTitle" name="entryTitle" />
+    <label for="eBody" class="form-label">Post</label>
+    <textarea
+      class="form-control"
+      id="eBody"
+      name="entryBody"
+      rows="5"
+    ></textarea>
+  </div>
   <button type="submit" class="btn btn-primary" name="publishbtn">
     Publish
   </button>
